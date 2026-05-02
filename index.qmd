@@ -1,0 +1,28 @@
+---
+title: "David Nobles"
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/davidnobles-eng
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/david-nobles
+    - icon: envelope
+      text: Email
+      href: mailto:david.nobles@sontric.org
+---
+
+Electrical engineer with 8+ years of experience across power systems,
+inverter validation, battery energy storage applications, and engineering
+consulting.  
+  
+My work bridges rigorous electrical analysis with modern software
+practices, using tools like Python, Linux, GitHub Actions, Pytest, LabVIEW,
+TestStand, Power BI, and MySQL to build automated, auditable workflows for
+testing, reporting, design review, and production decision support.
+
+## Publications
+
+- **[Hardware-in-the-Loop Simulation, Control, and Validation of Battery Inverter Characteristics Through the IBR Control Hardware](https://wprcarchives.org/wp-content/uploads/2024/04/Magnago_Henrique_HardwareLoopSimulation_FC_20220909.pdf)** — presented at the Western Protective Relay Conference, 2022.

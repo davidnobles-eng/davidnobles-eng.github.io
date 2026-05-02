@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "David Nobles"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: papers/index.qmd
+        text: Papers
+      - href: resume.qmd
+        text: Resume
+      - icon: github
+        href: https://github.com/davidnobles-eng
+      - icon: linkedin
+        href: https://linkedin.com/in/david-nobles
+      - icon: envelope
+        href: mailto:david.nobles@sontric.org
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    fontsize: 1.05em
+    linkcolor: "#0969da"

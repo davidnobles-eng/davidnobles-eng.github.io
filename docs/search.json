@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Last updated: May 2nd, 2026\nResume available on request. For current background and contact details, see LinkedIn."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Nobles",
+    "section": "",
+    "text": "Electrical engineer with 8+ years of experience across power systems, inverter validation, battery energy storage applications, and engineering consulting.\nMy work bridges rigorous electrical analysis with modern software practices, using tools like Python, Linux, GitHub Actions, Pytest, LabVIEW, TestStand, Power BI, and MySQL to build automated, auditable workflows for testing, reporting, design review, and production decision support."
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "David Nobles",
+    "section": "Publications",
+    "text": "Publications\n\nHardware-in-the-Loop Simulation, Control, and Validation of Battery Inverter Characteristics Through the IBR Control Hardware — presented at the Western Protective Relay Conference, 2022."
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Hardware-in-the-Loop Simulation, Control, and Validation of Battery Inverter Characteristics Through the IBR Control Hardware D. Nobles, et al. Presented at the Western Protective Relay Conference, 2022."
+  },
+  {
+    "objectID": "papers/index.html#section",
+    "href": "papers/index.html#section",
+    "title": "Papers",
+    "section": "",
+    "text": "Hardware-in-the-Loop Simulation, Control, and Validation of Battery Inverter Characteristics Through the IBR Control Hardware D. Nobles, et al. Presented at the Western Protective Relay Conference, 2022."
+  }
+]
