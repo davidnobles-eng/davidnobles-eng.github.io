@@ -31,5 +31,5 @@ $f(\cos(\theta - \theta_0))$.
 ## Scope
 
 Numerical and SPICE-model results only; no instrument has been characterized
-with the method. Built as a reproducible Quarto paper with a PySpice model
+with the method. Built as a reproducible Quarto note with a PySpice model
 behind each figure.

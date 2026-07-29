@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - href: papers/index.qmd
-        text: Papers
+        text: Notes
       - href: resume.qmd
         text: Resume
       - icon: github
@@ -26,3 +26,9 @@ format:
     toc: false
     fontsize: 1.05em
     linkcolor: "#0969da"
+
+# These are working notes, not published papers — relabel Quarto's default
+# "Published" byline on the title block. This is a language key, not a
+# format option; nesting it under format.html silently does nothing.
+language:
+  title-block-published: "Written"
