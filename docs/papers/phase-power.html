@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-28">
 
-<title>Papers – David Nobles</title>
+<title>Single-Parameter Gauge-Covariant Loop-Flow Control for Phase-Shifting Transformers and Meshed Converter Networks – David Nobles</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,7 +124,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../papers/index.html" aria-current="page"> 
+    <a class="nav-link" href="../papers/index.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
@@ -162,7 +163,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Papers</h1>
+<h1 class="title">Single-Parameter Gauge-Covariant Loop-Flow Control for Phase-Shifting Transformers and Meshed Converter Networks</h1>
 </div>
 
 
@@ -170,6 +171,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 28, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -179,16 +186,15 @@ window.Quarto = {
 </header>
 
 
-<section id="working-papers-2026" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers-2026">Working papers, 2026</h2>
-<p>Unrefereed and self-published. Each is a reproducible Quarto build — the figures and numbers regenerate from the code in the repository.</p>
-<p><strong><a href="../papers/phase-power.html">Single-Parameter Gauge-Covariant Loop-Flow Control for Phase-Shifting Transformers and Meshed Converter Networks</a></strong> A single feedback parameter per mesh loop, driven by loop holonomy, closing the gap between fast local converter control and day-ahead PST optimal power flow. Simulation stage. <a href="../assets/phase-power.pdf">PDF</a></p>
-<p><strong><a href="../papers/phase-descent-calibration.html">Phase Descent: Identifying Error Lineage in Passive Correlators from Harmonic Phase Coherence</a></strong> Distortion from a single latent perturbation through a single nonlinearity yields angular harmonics obeying <span class="math inline">\(\phi_n - n\phi_1 = 0 \pmod{\pi}\)</span>, separating analyzer from recombiner asymmetry in one angular sweep. <a href="../assets/phase-descent-calibration.pdf">PDF</a></p>
-<p><strong><a href="../papers/three-phase-bell-realization.html">Bell Violations as Three-Party Quadratic Conservation: A Classical Three-Phase Realization</a></strong> The CHSH bound tracks the algebraic order of the source conservation law. A structural construction requiring a non-local constraint — not a refutation of Bell’s theorem. <a href="../assets/three-phase-bell-realization.pdf">PDF</a></p>
+<p><a href="../assets/phase-power.pdf" class="btn btn-primary">Download PDF</a> &nbsp; <a href="https://github.com/TheChaosBureau/phase-power">Source</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>An <em>active-phase link element</em> is a branch whose series phase offset is set independently of its endpoint bus angles: a phase-shifting transformer (PST), a UPFC or other FACTS device, a back-to-back voltage-source converter pair, a dual-active-bridge DC interface, or a grid-forming inverter in a meshed low-inertia fleet. Meshed networks containing such elements — the European transmission system and its PST-coordinated border flows being the largest deployed instance — carry a loop-level coordination degree of freedom currently managed by four layered mechanisms, none of which closes the loop-local, real-time gap between them.</p>
+<p>This paper identifies loop-flow coordination as an instance of the <em>actuated-edge regime</em> of cellular-sheaf coordination, and shows that the cycle-space dimension <span class="math inline">\(b_1(G) = m - n + c\)</span> gives a tight two-sided bound on the number of scalar feedback parameters required to asymptotically stabilize the trivial-connection equilibrium — attained by a canonical per-cycle feedback law driven by the loop holonomy, the gauge-invariant observable identified physically with circulating reactive power.</p>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2022</h2>
-<p><strong><a href="https://wprcarchives.org/wp-content/uploads/2024/04/Magnago_Henrique_HardwareLoopSimulation_FC_20220909.pdf">Hardware-in-the-Loop Simulation, Control, and Validation of Battery Inverter Characteristics Through the IBR Control Hardware</a></strong> D. Nobles, et al.&nbsp;Presented at the Western Protective Relay Conference, 2022.</p>
+<section id="scope" class="level2">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
+<p>Simulation stage. Results are benchmarked against a Verboomen-class optimal power flow baseline on IEEE test networks; there is no hardware or field validation. Each numerical claim in the paper maps to its own validation script in the repository.</p>
 
 
 </section>

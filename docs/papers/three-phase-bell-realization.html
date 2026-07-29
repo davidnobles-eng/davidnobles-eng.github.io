@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-28">
 
-<title>Papers – David Nobles</title>
+<title>Bell Violations as Three-Party Quadratic Conservation: A Classical Three-Phase Realization – David Nobles</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,7 +124,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../papers/index.html" aria-current="page"> 
+    <a class="nav-link" href="../papers/index.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
@@ -162,7 +163,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Papers</h1>
+<h1 class="title">Bell Violations as Three-Party Quadratic Conservation: A Classical Three-Phase Realization</h1>
 </div>
 
 
@@ -170,6 +171,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 28, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -179,16 +186,26 @@ window.Quarto = {
 </header>
 
 
-<section id="working-papers-2026" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers-2026">Working papers, 2026</h2>
-<p>Unrefereed and self-published. Each is a reproducible Quarto build — the figures and numbers regenerate from the code in the repository.</p>
-<p><strong><a href="../papers/phase-power.html">Single-Parameter Gauge-Covariant Loop-Flow Control for Phase-Shifting Transformers and Meshed Converter Networks</a></strong> A single feedback parameter per mesh loop, driven by loop holonomy, closing the gap between fast local converter control and day-ahead PST optimal power flow. Simulation stage. <a href="../assets/phase-power.pdf">PDF</a></p>
-<p><strong><a href="../papers/phase-descent-calibration.html">Phase Descent: Identifying Error Lineage in Passive Correlators from Harmonic Phase Coherence</a></strong> Distortion from a single latent perturbation through a single nonlinearity yields angular harmonics obeying <span class="math inline">\(\phi_n - n\phi_1 = 0 \pmod{\pi}\)</span>, separating analyzer from recombiner asymmetry in one angular sweep. <a href="../assets/phase-descent-calibration.pdf">PDF</a></p>
-<p><strong><a href="../papers/three-phase-bell-realization.html">Bell Violations as Three-Party Quadratic Conservation: A Classical Three-Phase Realization</a></strong> The CHSH bound tracks the algebraic order of the source conservation law. A structural construction requiring a non-local constraint — not a refutation of Bell’s theorem. <a href="../assets/three-phase-bell-realization.pdf">PDF</a></p>
+<p><a href="../assets/three-phase-bell-realization.pdf" class="btn btn-primary">Download PDF</a> &nbsp; <a href="https://github.com/TheChaosBureau/three-phase-bell-realization">Source</a></p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Scope.</strong> The construction requires a non-local conservation constraint and therefore does <strong>not</strong> refute Bell’s theorem, and is not offered as a local hidden-variable model. Its contribution is to make the locus of nonlocality concrete — the zero-sequence energy flow — and to give the apparent nonlocality of quantum correlations a structural reading in terms of three-party conservation accounting.</p>
+</div>
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The hierarchy of Bell-inequality violations arises from the algebraic order of the conservation law governing the correlated source. Linear conservation (momentum-type) produces correlations bounded by <span class="math inline">\(S = \sqrt{2}\)</span>, well within the classical Bell–CHSH limit. Quadratic conservation (power-, intensity-, or <span class="math inline">\(|\psi|^2\)</span>-type) produces correlations that saturate the Tsirelson bound at <span class="math inline">\(S = 2\sqrt{2}\)</span>. The factor-of-two amplification in angular frequency — <span class="math inline">\(\cos(2\Delta\phi)\)</span> versus <span class="math inline">\(\cos(\Delta\phi)\)</span> — is the double-angle identity made physical.</p>
+<p>We argue that the standard two-party CHSH framework is an incomplete accounting of an intrinsically three-party conservation law, with the third party identified as the zero-sequence mode of the Clarke decomposition: the energy carried by the field between measurement stations. We construct a classical three-phase analog — a passive linear front-end of four delta-LC tanks with a shared resonant core, a shot-trigger Born-rule detector, and a zero-sequence closure latch — and show by reduced-model simulation and a SPICE-driven realization that it reproduces Tsirelson-saturating CHSH (<span class="math inline">\(S \approx 2.828\)</span>, error 0.043; winner-law RMS error 0.013; decisive rate 99.5%; energy conservation 100%).</p>
+<p>The construction is positioned relative to prequantum classical models (Khrennikov’s PCSFT, Spekkens, ’t Hooft, Bohmian mechanics).</p>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2022</h2>
-<p><strong><a href="https://wprcarchives.org/wp-content/uploads/2024/04/Magnago_Henrique_HardwareLoopSimulation_FC_20220909.pdf">Hardware-in-the-Loop Simulation, Control, and Validation of Battery Inverter Characteristics Through the IBR Control Hardware</a></strong> D. Nobles, et al.&nbsp;Presented at the Western Protective Relay Conference, 2022.</p>
+<section id="scope" class="level2">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
+<p>Simulation and SPICE only — no bench hardware has been built. See the scope note above regarding what the result does and does not claim.</p>
 
 
 </section>
