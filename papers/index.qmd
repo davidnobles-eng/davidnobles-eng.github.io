@@ -1,11 +1,12 @@
 ---
-title: "Papers"
+title: "Research notes"
 ---
 
-## Working papers, 2026
+## 2026
 
-Unrefereed and self-published. Each is a reproducible Quarto build — the figures
-and numbers regenerate from the code in the repository.
+Not peer-reviewed, and not submitted anywhere. These are working notes, written
+up in full so the reasoning and the numbers survive — each one reproducible,
+with the figures and results regenerating from the code in its repository.
 
 **[Single-Parameter Gauge-Covariant Loop-Flow Control for Phase-Shifting Transformers and Meshed Converter Networks](phase-power.qmd)**
 A single feedback parameter per mesh loop, driven by loop holonomy, closing the

@@ -17,7 +17,7 @@ deployed instance — carry a loop-level coordination degree of freedom currentl
 managed by four layered mechanisms, none of which closes the loop-local,
 real-time gap between them.
 
-This paper identifies loop-flow coordination as an instance of the
+The note identifies loop-flow coordination as an instance of the
 *actuated-edge regime* of cellular-sheaf coordination, and shows that the
 cycle-space dimension $b_1(G) = m - n + c$ gives a tight two-sided bound on the
 number of scalar feedback parameters required to asymptotically stabilize the
@@ -29,5 +29,5 @@ physically with circulating reactive power.
 
 Simulation stage. Results are benchmarked against a Verboomen-class optimal
 power flow baseline on IEEE test networks; there is no hardware or field
-validation. Each numerical claim in the paper maps to its own validation script
+validation. Each numerical claim maps to its own validation script
 in the repository.
