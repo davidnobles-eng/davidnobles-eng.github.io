@@ -1,0 +1,45 @@
+---
+title: "Bell Violations as Three-Party Quadratic Conservation: A Classical Three-Phase Realization"
+date: 2026-07-28
+---
+
+[Download PDF](../assets/three-phase-bell-realization.pdf){.btn .btn-primary} &nbsp; [Source](https://github.com/TheChaosBureau/three-phase-bell-realization)
+
+::: {.callout-important appearance="simple"}
+**Scope.** The construction requires a non-local conservation constraint and
+therefore does **not** refute Bell's theorem, and is not offered as a local
+hidden-variable model. Its contribution is to make the locus of nonlocality
+concrete — the zero-sequence energy flow — and to give the apparent nonlocality
+of quantum correlations a structural reading in terms of three-party
+conservation accounting.
+:::
+
+## Abstract
+
+The hierarchy of Bell-inequality violations arises from the algebraic order of
+the conservation law governing the correlated source. Linear conservation
+(momentum-type) produces correlations bounded by $S = \sqrt{2}$, well within the
+classical Bell–CHSH limit. Quadratic conservation (power-, intensity-, or
+$|\psi|^2$-type) produces correlations that saturate the Tsirelson bound at
+$S = 2\sqrt{2}$. The factor-of-two amplification in angular frequency —
+$\cos(2\Delta\phi)$ versus $\cos(\Delta\phi)$ — is the double-angle identity
+made physical.
+
+We argue that the standard two-party CHSH framework is an incomplete accounting
+of an intrinsically three-party conservation law, with the third party
+identified as the zero-sequence mode of the Clarke decomposition: the energy
+carried by the field between measurement stations. We construct a classical
+three-phase analog — a passive linear front-end of four delta-LC tanks with a
+shared resonant core, a shot-trigger Born-rule detector, and a zero-sequence
+closure latch — and show by reduced-model simulation and a SPICE-driven
+realization that it reproduces Tsirelson-saturating CHSH ($S \approx 2.828$,
+error 0.043; winner-law RMS error 0.013; decisive rate 99.5%; energy
+conservation 100%).
+
+The construction is positioned relative to prequantum classical models
+(Khrennikov's PCSFT, Spekkens, 't Hooft, Bohmian mechanics).
+
+## Scope
+
+Simulation and SPICE only — no bench hardware has been built. See the scope note
+above regarding what the result does and does not claim.
